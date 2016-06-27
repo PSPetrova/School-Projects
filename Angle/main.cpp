@@ -1,6 +1,6 @@
 #include <iostream>
 #include <math.h>
-
+#include <Employee.h>
 const double DEG_TO_RAD= 3.14159265/180;
 
 using namespace std;
@@ -33,10 +33,10 @@ double Angle::getTan() const
 }
 int main()
 {
-    Angle a;
-    a.setValue(45);
-    cout<< "sin(45) = "<< a.getSin()<<endl;
-    cout<<"cos(45) = "<<a.getCos()<<endl;
-    cout<<"tan(45) = "<<a.getTan()<<endl;
+
+char* str= "gg";
+
+cout<<str['g']<<endl;
     return 0;
+
 }
