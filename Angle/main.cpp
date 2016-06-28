@@ -1,6 +1,10 @@
 #include <iostream>
 #include <math.h>
 #include <Employee.h>
+#include <Absolute.h>
+#include <Gcd.h>
+#include <BankAccount.h>
+
 const double DEG_TO_RAD= 3.14159265/180;
 
 using namespace std;
@@ -33,10 +37,14 @@ double Angle::getTan() const
 }
 int main()
 {
+    int a=4;
+    int b=16;
+    Gcd t(a,b);
+    cout<<t.value(a,b);
+    Absolute num;
+    cout<<num.ab(-43.5);
 
-char* str= "gg";
-
-cout<<str['g']<<endl;
+  cout<<"Absolute value "<<num.ab(-45.7)<<endl;
+   cout<<"Absolute value "<<num.ab(-232)<<endl;
     return 0;
-
 }
