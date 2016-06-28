@@ -45,6 +45,6 @@ int main()
     cout<<num.ab(-43.5);
 
   cout<<"Absolute value "<<num.ab(-45.7)<<endl;
-   cout<<"Absolute value "<<num.ab(-232)<<endl;//
+   cout<<"Absolute value "<<num.ab(-232)<<endl;
     return 0;
 }
