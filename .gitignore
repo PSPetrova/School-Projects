@@ -1,0 +1,10 @@
+# Ignore everything
+*
+!*.cpp
+!*.h
+!.gitignore
+
+# ...even if they are in subdirectories
+!*/
+/bin/
+
